@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Official website of MIT Edboard, Student Club at Manipal Institute of Technology">
+        <meta name="keywords" content="MIT Edboard, Editorial Board, Edboard">
+        <title>MIT Edboard</title>
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    
+        <!-- Bootstrap CSS (Make sure this URL is correct) -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="style.css">
+<!-- Load Flipster CSS from a CDN (Recommended) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-flipster@1.1.4/dist/jquery.flipster.min.css">
+
+<!-- OR: Use local file (if downloaded) -->
+<link rel="stylesheet" href="jquery.flipster.min.css">
+
+    
+        <!-- JavaScript -->
+        <script defer src="script.js"></script>
+    </head>
+    
+<body style=" background-color: #0f112e;overflow-x: hidden;">
+    <canvas id="spiderWebCanvas"></canvas>
+    <section class="header" style="position: fixed;">
+        <nav>   
+           <div class="nav-links" id="navLinks">
+               <ul style="padding-top: 24px;">
+                   <li><a style="text-decoration: none;"  href="">Home</a></li>
+                   <li><a style="text-decoration: none;" href="">Team</a></li>           
+                   <li><a style="text-decoration: none;" href="">Newsletters&#x25BE;</a>
+                           <ul class="ddown">
+                            <li><a href="./HQFINALfinalfinal_compressed.pdf" target="_blank">Feb '24</a></li>
+                            <li><a href="./September_Newsletter.pdf" target="_blank">Sep '24</a></li> 
+                           </ul>                    
+                   </li>                  
+                   <li><a style="text-decoration: none;" href="">Yearbook</a></li>
+                   <li><a style="text-decoration: none;" href="">Gallery</a></li>
+                   <li><a style="text-decoration: none;" href="">Contact us</a></li>
+                   <li><a href="#" class="apply-button" target="_blank">Apply</a></li>
+               </ul>
+           </div>
+        </nav>
+       </section>
+       <a href="index.html"><img src="./images/LOGO.png" style="width: 7%;min-height: 7%;position: fixed; z-index: 999;padding-top: 2px;padding-left: 20px;"></a>
+       <!-- Video Background Section -->
+    <div class="video-section">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="./video/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay">
+            <h1>MIT EDITORIAL BOARD</h1>
+            <p>Welcome to the MIT Editorial Board, the creative hub and driving force behind the Manipal Institute of Technology's official student body and yearbook committee.</p>
+        </div>
+    </div>
+    <section class="article-collage">
+        <h2 class="section-title">Our Latest Articles</h2>
+        <div class="collage-container">
+            <!-- Big article -->
+            <div class="article-card big-article">
+                <div class="image-overlay">
+                    <img src="images/images (7).jpeg" alt="Big Article">
+                    <div class="overlay-content">
+                        <h3>Big Article Title</h3>
+                        <p>1-2 lines of the article content here. Captures the main idea.</p>
+                        <a href="https://example.com/big-article" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Smaller articles -->
+            <div class="article-card small-article">
+                <div class="image-overlay">
+                    <img src="images/nature-of-georgia.webp" alt="Article 1">
+                    <div class="overlay-content">
+                        <h3>Article Title 1</h3>
+                        <p>1-2 lines of article content.</p>
+                        <a href="https://example.com/article1" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card small-article">
+                <div class="image-overlay">
+                    <img src="images/nature-of-georgia.webp" alt="Article 2">
+                    <div class="overlay-content">
+                        <h3>Article Title 2</h3>
+                        <p>1-2 lines of article content.</p>
+                        <a href="https://example.com/article2" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="article-card small-article">
+                <div class="image-overlay">
+                    <img src="images/nature-of-georgia.webp" alt="Article 2">
+                    <div class="overlay-content">
+                        <h3>Article Title 2</h3>
+                        <p>1-2 lines of article content.</p>
+                        <a href="https://example.com/article2" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card small-article">
+                <div class="image-overlay">
+                    <img src="images/nature-of-georgia.webp" alt="Article 2">
+                    <div class="overlay-content">
+                        <h3>Article Title 2</h3>
+                        <p>1-2 lines of article content.</p>
+                        <a href="https://example.com/article2" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="know-our-domains">
+        <h2 class="section-title">Our Domains</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item-1">
+                    <h3>Arts and Grpahics</h3>
+                    <p>Pixel wizards who bring ideas to life, Arts N Graphics creates stunning visuals that demand attention. From bold covers to striking layouts, their designs make every project unforgettable. They don't just design-they mesmerize.</p>
+                </div>
+                <div class="carousel-item-2">
+                    <h3>Writing</h3>
+                    <p>The wordsmiths of the student body, the Writing Department spins stories, poetry, and humor into pure magic. Their imagination leaps off the page, leaving readers captivated and inspired. They're the soul of every narrative.</p>
+                </div>
+                <div class="carousel-item-3">
+                    <h3>Photography & Videography</h3>
+                    <p>Masters of moments, the PAV team captures memories that turn into timeless masterpieces. With each click, they transform the ordinary into extraordinary, weaving stories that speak louder than words. Their lens is a portal to visual poetry.</p>
+                </div>
+                <div class="carousel-item-4">
+                    <h3>Admin & HR</h3>
+                    <p>The backbone of the organization, Admin & HR ensures every idea comes to life with precision. From securing permissions to managing resources and yearbook printing, they make the impossible seem effortless. Strategy meets magic in their expert hands.</p>
+                </div>
+                <div class="carousel-item-5">
+                    <h3>Content</h3>
+                    <p> The Content Team crafts engaging stories and impactful messages that connect ideas to the audience. From newsletters to social media, they ensure every word aligns with the club's vision and brings creativity to life</p>
+                </div>
+                <div class="carousel-item-6">
+                    <h3>Conceptual</h3>
+                    <p>The creative think tank of the club, the Conceptual Team decides the themes for newsletters, yearbooks, and reels. From crafting columns to brainstorming fresh ideas, they're the masterminds behind every concept that shapes our vision</p>
+                </div>
+                <div class="carousel-item-7">
+                    <h3>Technical</h3>
+                    <p>The digital backbone of the team, Technical handles everything from websites to archives with finesse. They streamline data and platforms, ensuring creativity flows without a hitch. Technology is their craft, precision their art.</p>
+                </div>
+                <div class="carousel-item-8">
+                    <h3>Social Media</h3>
+                    <p>Creates engaging content and helps you live the dream of becoming a youtuber or influencer on a smaller scale. They turn ideas into impactful posts, creating magic that resonates with every audience.</p>
+                </div>
+                <div class="carousel-item-1">
+                    <h3>Arts and Grpahics</h3>
+                    <p>Pixel wizards who bring ideas to life, Arts N Graphics creates stunning visuals that demand attention. From bold covers to striking layouts, their designs make every project unforgettable. They don't just design-they mesmerize.</p>
+                </div>
+                <div class="carousel-item-2">
+                    <h3>Writing</h3>
+                    <p>The wordsmiths of the student body, the Writing Department spins stories, poetry, and humor into pure magic. Their imagination leaps off the page, leaving readers captivated and inspired. They're the soul of every narrative.</p>
+                </div>
+                <div class="carousel-item-3">
+                    <h3>Photography & Videography</h3>
+                    <p>Masters of moments, the PAV team captures memories that turn into timeless masterpieces. With each click, they transform the ordinary into extraordinary, weaving stories that speak louder than words. Their lens is a portal to visual poetry.</p>
+                </div>
+                <div class="carousel-item-4">
+                    <h3>Admin & HR</h3>
+                    <p>The backbone of the organization, Admin & HR ensures every idea comes to life with precision. From securing permissions to managing resources and yearbook printing, they make the impossible seem effortless. Strategy meets magic in their expert hands.</p>
+                </div>
+                <div class="carousel-item-5">
+                    <h3>Content</h3>
+                    <p> The Content Team crafts engaging stories and impactful messages that connect ideas to the audience. From newsletters to social media, they ensure every word aligns with the club's vision and brings creativity to life</p>
+                </div>
+                <div class="carousel-item-6">
+                    <h3>Conceptual</h3>
+                    <p>The creative think tank of the club, the Conceptual Team decides the themes for newsletters, yearbooks, and reels. From crafting columns to brainstorming fresh ideas, they're the masterminds behind every concept that shapes our vision</p>
+                </div>
+                <div class="carousel-item-7">
+                    <h3>Technical</h3>
+                    <p>The digital backbone of the team, Technical handles everything from websites to archives with finesse. They streamline data and platforms, ensuring creativity flows without a hitch. Technology is their craft, precision their art.</p>
+                </div>
+                <div class="carousel-item-8">
+                    <h3>Social Media</h3>
+                    <p>Creates engaging content and helps you live the dream of becoming a youtuber or influencer on a smaller scale. They turn ideas into impactful posts, creating magic that resonates with every audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join-and-share">
+        <div class="container">
+            <div class="left-section">
+                <h2>Join Our Team</h2>
+                <p>Join us on an incredible journey to stay connected and inspired! Follow us on Instagram to catch all the latest updates on campus events, exclusive recruitment opportunities, and exciting posts that bring life at MIT to your fingertips. Immerse yourself in the creativity as we organize stunning yearbook photoshoots, craft engaging content that celebrates MIT’s legacy, and showcase the vibrant spirit of our community. From behind-the-scenes glimpses of our innovative projects to collaborations with passionate students, we ensure there’s something for everyone. Don’t miss the chance to be part of this dynamic journey—tap the follow button and let’s create, inspire, and celebrate MIT together!</p>
+                <a href="https://instagram.com/https://www.instagram.com/mit.edboard?igsh=bmxmaGk0cWJ2ankz" target="_blank" class="social-link">
+                    <i class="fa fa-instagram"></i> Follow Us on Instagram
+                </a>
+            </div>
+            <div class="right-section">
+                <h2>Share Your Ideas</h2>
+                <form id="ideaForm" autocomplete="on">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                
+                    <label for="idea">Your Idea</label>
+                    <textarea id="idea" name="idea" autocomplete="off" rows="4" required></textarea>
+                
+                    <label for="attachment">Attach Files (optional)</label>
+                    <input type="file" id="attachment" name="attachment" autocomplete="off" multiple>
+                
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const canvas = document.getElementById("spiderWebCanvas");
+        const ctx = canvas.getContext("2d");
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const particles = [];
+        const maxParticles = 120;  
+        const connectDistance = 120; 
+
+       class Particle {
+    constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.radius = Math.random() * 3 + 1;
+        this.dx = (Math.random() - 0.5) * 1.0; 
+        this.dy = (Math.random() - 0.5) * 1.0; 
+    }
+
+    move() {
+        this.x += this.dx;
+        this.y += this.dy;
+
+        
+        if (this.x < 0 || this.x > canvas.width) this.dx *= -1;
+        if (this.y < 0 || this.y > canvas.height) this.dy *= -1;
+    }
+
+    draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "white";
+        ctx.fill();
+    }
+}
+
+
+        function createParticles() {
+            for (let i = 0; i < maxParticles; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function connectParticles() {
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < connectDistance) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${1 - distance / connectDistance})`;
+                        ctx.lineWidth = 1;
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => {
+                p.move();
+                p.draw();
+            });
+            connectParticles();
+            requestAnimationFrame(animate);
+        }
+
+        createParticles();
+        animate();
+
+       
+        window.addEventListener("resize", () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+    
+    <script>
+        const carousel = document.querySelector('.carousel');
+
+const itemsToClone = 2; 
+for (let i = 0; i < itemsToClone; i++) {
+    const clone = carousel.children[i].cloneNode(true);
+    carousel.appendChild(clone);
+}
+
+    </script>
+
+
+</body>
+</html>
+
+    
+</body>
+</html>
